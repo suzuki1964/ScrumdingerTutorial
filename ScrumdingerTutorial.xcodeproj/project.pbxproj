@@ -33,6 +33,14 @@
 		C3A2A0BE27F2B90C003E2FD5 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0BC27F2B90C003E2FD5 /* ThemeView.swift */; };
 		C3A2A0C027F2BAA4003E2FD5 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0BF27F2BAA4003E2FD5 /* ThemePicker.swift */; };
 		C3A2A0C127F2BAA4003E2FD5 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0BF27F2BAA4003E2FD5 /* ThemePicker.swift */; };
+		C3A2A0C327F62EAA003E2FD5 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0C227F62EAA003E2FD5 /* MeetingHeaderView.swift */; };
+		C3A2A0C427F62EAA003E2FD5 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0C227F62EAA003E2FD5 /* MeetingHeaderView.swift */; };
+		C3A2A0C627F63319003E2FD5 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0C527F63319003E2FD5 /* ScrumProgressViewStyle.swift */; };
+		C3A2A0C727F63319003E2FD5 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0C527F63319003E2FD5 /* ScrumProgressViewStyle.swift */; };
+		C3A2A0C927F63661003E2FD5 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0C827F63661003E2FD5 /* ScrumTimer.swift */; };
+		C3A2A0CA27F63661003E2FD5 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0C827F63661003E2FD5 /* ScrumTimer.swift */; };
+		C3A2A0CC27F637F3003E2FD5 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0CB27F637F3003E2FD5 /* MeetingFooterView.swift */; };
+		C3A2A0CD27F637F3003E2FD5 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0CB27F637F3003E2FD5 /* MeetingFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +82,10 @@
 		C3A2A0AD27F205EA003E2FD5 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		C3A2A0BC27F2B90C003E2FD5 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		C3A2A0BF27F2BAA4003E2FD5 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		C3A2A0C227F62EAA003E2FD5 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		C3A2A0C527F63319003E2FD5 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		C3A2A0C827F63661003E2FD5 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrumTimer.swift; path = ../../../../../Downloads/ScrumTimer.swift; sourceTree = "<group>"; };
+		C3A2A0CB27F637F3003E2FD5 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +137,12 @@
 				C3A2A09C27F0B9E0003E2FD5 /* Models */,
 				C3A2A06027F0AF69003E2FD5 /* ScrumdingerTutorialApp.swift */,
 				C3A2A06127F0AF69003E2FD5 /* MeetingView.swift */,
+				C3A2A0C227F62EAA003E2FD5 /* MeetingHeaderView.swift */,
+				C3A2A0C527F63319003E2FD5 /* ScrumProgressViewStyle.swift */,
 				C3A2A06227F0AF6A003E2FD5 /* Assets.xcassets */,
 				C3A2A0A127F0BDEC003E2FD5 /* CardView.swift */,
 				C3A2A0A727F0EDEC003E2FD5 /* ScrumsView.swift */,
+				C3A2A0CB27F637F3003E2FD5 /* MeetingFooterView.swift */,
 				C3A2A0A327F0DE38003E2FD5 /* TrailingIconLabelStyle.swift */,
 				C3A2A0AA27F170E7003E2FD5 /* DetailView.swift */,
 				C3A2A0BC27F2B90C003E2FD5 /* ThemeView.swift */,
@@ -179,6 +194,7 @@
 			children = (
 				C3A2A09D27F0BA06003E2FD5 /* Theme.swift */,
 				C3A2A09F27F0BC33003E2FD5 /* DailyScrum.swift */,
+				C3A2A0C827F63661003E2FD5 /* ScrumTimer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -342,8 +358,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A2A0C027F2BAA4003E2FD5 /* ThemePicker.swift in Sources */,
+				C3A2A0C627F63319003E2FD5 /* ScrumProgressViewStyle.swift in Sources */,
+				C3A2A0CC27F637F3003E2FD5 /* MeetingFooterView.swift in Sources */,
+				C3A2A0C927F63661003E2FD5 /* ScrumTimer.swift in Sources */,
 				C3A2A0A027F0BC33003E2FD5 /* DailyScrum.swift in Sources */,
 				C3A2A0AB27F170E7003E2FD5 /* DetailView.swift in Sources */,
+				C3A2A0C327F62EAA003E2FD5 /* MeetingHeaderView.swift in Sources */,
 				C3A2A0AE27F205EA003E2FD5 /* DetailEditView.swift in Sources */,
 				C3A2A0A427F0DE38003E2FD5 /* TrailingIconLabelStyle.swift in Sources */,
 				C3A2A09E27F0BA06003E2FD5 /* Theme.swift in Sources */,
@@ -363,11 +383,15 @@
 				C3A2A08B27F0AF6A003E2FD5 /* MeetingView.swift in Sources */,
 				C3A2A0AC27F170E7003E2FD5 /* DetailView.swift in Sources */,
 				C3A2A0C127F2BAA4003E2FD5 /* ThemePicker.swift in Sources */,
+				C3A2A0CD27F637F3003E2FD5 /* MeetingFooterView.swift in Sources */,
 				C3A2A0AF27F205EA003E2FD5 /* DetailEditView.swift in Sources */,
 				C3A2A0A527F0DE38003E2FD5 /* TrailingIconLabelStyle.swift in Sources */,
+				C3A2A0CA27F63661003E2FD5 /* ScrumTimer.swift in Sources */,
 				C3A2A0A627F0DE7B003E2FD5 /* CardView.swift in Sources */,
 				C3A2A0A927F0EDEC003E2FD5 /* ScrumsView.swift in Sources */,
 				C3A2A08927F0AF6A003E2FD5 /* ScrumdingerTutorialApp.swift in Sources */,
+				C3A2A0C427F62EAA003E2FD5 /* MeetingHeaderView.swift in Sources */,
+				C3A2A0C727F63319003E2FD5 /* ScrumProgressViewStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

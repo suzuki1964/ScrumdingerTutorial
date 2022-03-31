@@ -41,6 +41,10 @@
 		C3A2A0CA27F63661003E2FD5 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0C827F63661003E2FD5 /* ScrumTimer.swift */; };
 		C3A2A0CC27F637F3003E2FD5 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0CB27F637F3003E2FD5 /* MeetingFooterView.swift */; };
 		C3A2A0CD27F637F3003E2FD5 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0CB27F637F3003E2FD5 /* MeetingFooterView.swift */; };
+		C3A2A0D227F63F8E003E2FD5 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0D127F63F8E003E2FD5 /* AVPlayer+Ding.swift */; };
+		C3A2A0D327F63F8E003E2FD5 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A2A0D127F63F8E003E2FD5 /* AVPlayer+Ding.swift */; };
+		C3A2A0D727F645F5003E2FD5 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3A2A0D627F645F5003E2FD5 /* ding.wav */; };
+		C3A2A0D827F645F5003E2FD5 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3A2A0D627F645F5003E2FD5 /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +90,8 @@
 		C3A2A0C527F63319003E2FD5 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		C3A2A0C827F63661003E2FD5 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrumTimer.swift; path = ../../../../../Downloads/ScrumTimer.swift; sourceTree = "<group>"; };
 		C3A2A0CB27F637F3003E2FD5 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		C3A2A0D127F63F8E003E2FD5 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AVPlayer+Ding.swift"; path = "../../../../../Downloads/AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		C3A2A0D627F645F5003E2FD5 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ding.wav; path = ../../../../../Downloads/ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,7 @@
 		C3A2A05F27F0AF69003E2FD5 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C3A2A0D527F645C3003E2FD5 /* Resources */,
 				C3A2A09C27F0B9E0003E2FD5 /* Models */,
 				C3A2A06027F0AF69003E2FD5 /* ScrumdingerTutorialApp.swift */,
 				C3A2A06127F0AF69003E2FD5 /* MeetingView.swift */,
@@ -195,8 +202,17 @@
 				C3A2A09D27F0BA06003E2FD5 /* Theme.swift */,
 				C3A2A09F27F0BC33003E2FD5 /* DailyScrum.swift */,
 				C3A2A0C827F63661003E2FD5 /* ScrumTimer.swift */,
+				C3A2A0D127F63F8E003E2FD5 /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C3A2A0D527F645C3003E2FD5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3A2A0D627F645F5003E2FD5 /* ding.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A2A0D727F645F5003E2FD5 /* ding.wav in Resources */,
 				C3A2A08C27F0AF6A003E2FD5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A2A0D827F645F5003E2FD5 /* ding.wav in Resources */,
 				C3A2A08D27F0AF6A003E2FD5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +390,7 @@
 				C3A2A08827F0AF6A003E2FD5 /* ScrumdingerTutorialApp.swift in Sources */,
 				C3A2A0BD27F2B90C003E2FD5 /* ThemeView.swift in Sources */,
 				C3A2A0A227F0BDEC003E2FD5 /* CardView.swift in Sources */,
+				C3A2A0D227F63F8E003E2FD5 /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +407,7 @@
 				C3A2A0A527F0DE38003E2FD5 /* TrailingIconLabelStyle.swift in Sources */,
 				C3A2A0CA27F63661003E2FD5 /* ScrumTimer.swift in Sources */,
 				C3A2A0A627F0DE7B003E2FD5 /* CardView.swift in Sources */,
+				C3A2A0D327F63F8E003E2FD5 /* AVPlayer+Ding.swift in Sources */,
 				C3A2A0A927F0EDEC003E2FD5 /* ScrumsView.swift in Sources */,
 				C3A2A08927F0AF6A003E2FD5 /* ScrumdingerTutorialApp.swift in Sources */,
 				C3A2A0C427F62EAA003E2FD5 /* MeetingHeaderView.swift in Sources */,
